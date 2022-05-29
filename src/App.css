@@ -1,0 +1,154 @@
+.container {
+    width: 25rem;
+    background-color: #1A1B21;
+    border-radius: 12px;
+}
+
+.container-info {
+    padding: 2rem 2.5rem;
+    text-align: center;
+}
+
+.container-info > * {
+    margin: 0;
+}
+
+.info--img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.info--name {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.info--role {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #DCAB8D;
+    margin: 0.2rem 0;
+}
+
+.info--site {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #ffffffcf;
+}
+
+.info--buttons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.info--buttons > * {
+    font-size: 1rem;
+}
+
+.btn-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 48%;
+    height: 2.5rem;
+    border-radius: 6px;
+    background-color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-icon {
+    height: 1em;
+    margin-right: 0.5em;
+    margin-top: -1px;
+}
+
+.btn-email:hover {
+    background-color: rgb(184, 184, 184);
+}
+
+.ico-envelope {
+    margin-right: 0.5em;
+}
+
+.btn-linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 48%;
+    height: 2.5rem;
+    border-radius: 6px;
+    background-color: #4C90DE;
+    color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-linkedin:hover {
+    background-color: #3b70ac;
+}
+
+.title {
+    font-size: 1.2rem;
+    margin: 0 0 0.4rem 0;
+}
+
+.title-interests {
+    margin-top: 1rem;
+}
+
+.about, .interests {
+    padding: 0 2.5rem;;
+}
+
+.interests {
+    margin: 2rem 0 3rem 0;
+}
+
+p {
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #ffffffcf;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #121317;
+    border-radius: 0 0 12px 12px;
+    padding: 1rem 4rem;
+}
+
+.footer--container {
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 2rem;
+    transition: all 0.1s;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 1.2rem;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
