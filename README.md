@@ -1,2 +1,2 @@
 # digital-business-card
-Digital Business Card make in React.js
+Digital Business Card made in React.js
